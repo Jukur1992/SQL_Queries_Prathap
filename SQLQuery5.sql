@@ -1,4 +1,4 @@
--12.write a SQL query to find month-over-month revenu growth 
+--12.write a SQL query to find month-over-month revenu growth 
 --select * from orders1; 
 WITH monthly_revenue AS (
     SELECT 
@@ -22,3 +22,4 @@ SELECT
     END AS mom_growth_percent
 FROM monthly_revenue
 ORDER BY year, month;
+
