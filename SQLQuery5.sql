@@ -23,3 +23,5 @@ SELECT
 FROM monthly_revenue
 ORDER BY year, month;
 
+select * from employee 
+where region like 'Tel%'
